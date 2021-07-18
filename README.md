@@ -1,4 +1,4 @@
-# Generating text using LSTM (character-level).
+# Generating text using LSTM (character-level)
 
 In this repository I will present how to generate text using LSTM in character level. 
 

@@ -1,4 +1,4 @@
-# Generating text using LSTM (character-level).
+# Generating text using LSTM (character-level)
 
 In this repository I will present how to generate text using LSTM in character level. 
 
@@ -48,9 +48,9 @@ LSTM is extremely slow to train even in GPU (I have used Colab for this) And tra
 
 
 ```
-Input Sequence : <start>d you will live. You have long needed a change of air. Suffe<end>
+Input Sequence : <START>d you will live. You have long needed a change of air. Suffe<END>
 
-Output Sequence: <start>r, and said now, she go in in the 
+Output Sequence: <START>r, and said now, she go in in the 
 
 dark on waterally. From all my honour of you go to itself." 
  
@@ -69,7 +69,7 @@ would know all the
 Most Razumihin?" 
  
 "I don't understand, I'll go," said Raskolnikov's 
-good-humoured: "/M<end>
+good-humoured: "/M<END>
 
 ```
 
@@ -77,7 +77,7 @@ good-humoured: "/M<end>
 ---
 
 ## TODO
-* [ ] Proper documentation
+* [ ] Improve documentation
 * [ ] Allow custom sentence as test case, without size constraint (now it's 60 character)
 * [ ] Further pre-processing of the text
 * [ ] Experiment with the network architecture 
